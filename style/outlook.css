@@ -3,8 +3,9 @@
     padding: 0px;
 }
 
-#container{
-    border: 1px solid black;
+#container-outlook{
+    margin-top: 110px;
+    
     
     width: 100%;
     height: auto;
@@ -154,10 +155,54 @@
     padding-top: 15px;
     padding-bottom: 30px;
 }
-
-#last-container{
-    border: 1px solid red;
-    width: 100%;
-    display: flex;
+#last_grid_2{
+    width: 85%;
+    margin: auto;
     
 }
+
+#last-container{
+    border-bottom: 1px solid grey;
+
+    padding-top: 10px;
+    height: 160px;
+    display: flex;
+    overflow: hidden;
+}
+#authorDiv{
+    width: 300px;
+}
+#authorDiv>h5{
+    margin-top: 15px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: rgb(83, 82, 82);
+}
+
+#innerDiv{
+    width: 100%;
+    padding-left: 10px;
+   
+}
+#innerDiv>h3{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+#innerDiv>h3:hover{
+    cursor: pointer;
+    color:#E0031B;
+}
+#innerDiv>p{
+    width: 98%;
+    color: rgb(83, 82, 82);
+    padding-top: 10px;
+}
+#last-container>img{
+    width: 38%;
+    height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+

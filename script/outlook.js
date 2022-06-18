@@ -9,7 +9,7 @@ let last2 = document.getElementById("last_grid_2")
 
 function displayData(data){
 
-   let cont =  document.getElementById("container");
+   let cont =  document.getElementById("container-outlook");
    cont.innerHTML = null;
 
 //    let cont2 = document.getElementById("last_grid_2");
@@ -93,6 +93,12 @@ function displayData(data){
     var box = document.createElement('div');
     box.id = "last-container"
 
+    let innerdiv = document.createElement('div');
+    innerdiv.id = "innerDiv"
+
+    let authordiv = document.createElement('div');
+    authordiv.id = "authorDiv"
+
     var image = document.createElement("img");
     image.src = elem.image;
 
@@ -105,13 +111,14 @@ function displayData(data){
     var author = document.createElement('h5');
     author.innerText = elem.author;
 
-
-    box.append(image, heading, story, author);
-    last.append(box);
+    authordiv.append(author);
+   innerdiv.append(heading, story)
+    box.append( authordiv, image, innerdiv);
+    last2.append(box);
     }
     
     
-    cont.append(first, mid, last, last2);
+    cont.append(first, mid, last);
    
 };
 

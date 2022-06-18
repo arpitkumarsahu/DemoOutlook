@@ -173,19 +173,20 @@ var indiaArr = [
     
     },
     {
-        image : "" ,
-        heading: "",
-        story: "",
-        author: "",
-        full_story: ""
-    
+        image : "https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_1/IMAGE_1655132564.webp" ,
+        heading: "Mercury Drops Marginally At Few Places In Haryana",
+        story: "The CBI carried.out searches at the premises of Agrasen Gehlot after it registered a fresh case of corruption against him.The probe agency is carrying out searches at multiple locations. ",
+        author: "Associated Press (AP)",
+        full_story: "Chandigarh, Jun 14 (PTI) The mercury dropped marginally at a few places in Haryana on Tuesday, even as hot weather conditions persisted in other parts of the state and neighbouring Punjab, according to the meteorological department.The places which witnessed a slight fall in temperatures included Rohtak (37.5 degrees Celsius), Bhiwani (38.4 degrees Celsius) and Gurugram (39 degrees Celsius).Ludhiana recorded a maximum temperature of 43.2 degrees Celsius, Patiala 43.6 degrees Celsius, Bathinda 43.6 degrees Celsius and Jalandhar 42.8 degrees Celsius.",
+        date: "19 June 2022"
     },
     {
-        image : "" ,
-        heading: "",
-        story: "",
-        author: "",
-        full_story: ""
+        image : "https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_5/IMAGE_1655103422.webp" ,
+        heading: "Special And Differential Treatment Is Non-Negotiable Right For All Developing Nations: Goyal",
+        story: "Goyal also pitched for resumption of smooth functioning of the appellate body of the WTO's dispute settlement mechanism",
+        author: "Press Trust of India",
+        full_story: "Special provisions provided to developing nations in all the agreements of the World Trade Organisation (WTO) through special and differential treatment are the non-negotiable matter for the emerging economies and they should be continued, commerce and industry minister Piyush Goyal said on Wednesday here.",
+        date: "19 June 2022"
     
     }
 ];
@@ -207,15 +208,15 @@ var internationalNewsArr = [
         image : "https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_2/IMAGE_1644999499.jpg" ,
         heading: "Small Plane Makes Emergency Landing Near Downtown Anchorage",
         story: "Lack of fuel resulted in a airplane in Anchorage in the US having to make an emergency landing.",
-        author: "",
-        full_story: "Anchorage (US), Jun 15 (AP) A small airplane made an emergency landing on a street near downtown Anchorage after it ran out of fuel, officials said.A Cessna 150 on a training flight was attempting to return to the city's small plane airport when it made the landing in a commercial area neighboring downtown Monday at about 9 pm, the Anchorage Daily News reported.A flight instructor and a student pilot were on board, said Clint Johnson, head of the Alaska division of the National Transportation Safety Board. There were no injuries, and the plane was not damaged."
+        author: "Press Trust of India",
+                full_story: "Anchorage (US), Jun 15 (AP) A small airplane made an emergency landing on a street near downtown Anchorage after it ran out of fuel, officials said.A Cessna 150 on a training flight was attempting to return to the city's small plane airport when it made the landing in a commercial area neighboring downtown Monday at about 9 pm, the Anchorage Daily News reported.A flight instructor and a student pilot were on board, said Clint Johnson, head of the Alaska division of the National Transportation Safety Board. There were no injuries, and the plane was not damaged."
     
     },
     {
         image : "https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_1/IMAGE_1655293178.webp" ,
         heading: "Pakistan Minister Urges People To Drink Less Tea, Says Country Has To Borrow For Tea Imports",
         story: "Pakistan is dealing with depleted foreign exchange reserves and the minister said cutting down on tea import bills would help the situation.",
-        author: "",
+        author: "Press Trust of India",
         full_story: "A Pakistani minister has urged people to reduce their tea consumption as he says the country's tea imports are stressing the country's finances.Federal Minister for Planning Ahsan Iqbal said Pakistanis should reduce tea by one or two cups as the country had to take loans for tea imports.The federal budget document for the outgoing fiscal year showed that Pakistan imported Rs 13 billion ($60 million) worth of more tea than the last fiscal year. In 2020-21, Rs 70.82 billion ($340 million) was spent on the import of tea, the News Network International news agency reported."
     
     },
@@ -247,7 +248,7 @@ var internationalNewsArr = [
         image : "https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_5/IMAGE_1655273252.webp" ,
         heading: "6 Dead In China As Rain Triggers Landslides, House Collapse",
         story: "Immense rainfall in China took the lives of 6 civilians. Innumerable people have been evacuated in the wake of the flood.",
-        author: "",
+        author: "Press Trust of India",
         full_story: "Beijing, Jun 15 (AP) Heavy rain in China has claimed six lives this week and forced the evacuation of some 200,000 people.Five people died in southeastern China, according to state media reports: A house collapse took three lives in Fujian province on Tuesday, and two died Monday in a landslide caused by torrential rain in neighboring Jiangxi province.One person died and three are missing in northern China after a vehicle fell into the water in mountain flooding from heavy rain in the Inner Mongolia region."
     
     },
@@ -263,7 +264,7 @@ var internationalNewsArr = [
         image : "https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_5/IMAGE_1655262498.webp" ,
         heading: "Imprisoned Kremlin Critic Alexei Navalny Moved To Another Prison, Allies Alarmed",
         story: "Navalny was moved to the IK-6 prison in the village of Melekhovo in the Vladimir region, Russian news agencies reported, citing Sergei Yazhan, chairman of the regional Public Monitoring Commission. Melekhovo is about 250 kilometers (155 miles) east of Moscow. ",
-        author: "",
+        author: "Press Trust of India",
         full_story: "Allies of imprisoned opposition politician Alexei Navalny sounded the alarm Wednesday when they discovered he was no longer in the prison where he had been serving his time and there was no word on where he had been taken. Navalny was moved to the IK-6 prison in the village of Melekhovo in the Vladimir region, Russian news agencies reported, citing Sergei Yazhan, chairman of the regional Public Monitoring Commission. Melekhovo is about 250 kilometers (155 miles) east of Moscow. Prison transfers in Russia sometimes take days and are shrouded in secrecy. The lack of information about the whereabouts of Navalny, the most determined political foe of Russian President Vladimir Putin, had worried his allies."
     
     },
@@ -271,7 +272,7 @@ var internationalNewsArr = [
         image : "https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_5/IMAGE_1655257936.webp" ,
         heading: "Satellite Spots Massive Burst Of Methane From Russian Coal Mine",
         story: "Montreal-based GHGSat said one of its satellites, known as Hugo,' observed 13 methane plumes at the Raspadskaya mine in Siberia on January 14. The incident likely resulted in about 90 metric tons of methane being belched into the atmosphere in the space of an hour, the company calculated.",
-        author: "",
+        author: "Press Trust of India",
         full_story: "A private company that uses satellites to spot sources of methane emissions around the globe said Wednesday that it detected one of the largest artificial releases of the potent greenhouse gas ever seen, coming from a coal mine in Russia earlier this year.Montreal-based GHGSat said one of its satellites, known as Hugo,' observed 13 methane plumes at the Raspadskaya mine in Siberia on January 14. The incident likely resulted in about 90 metric tons of methane being belched into the atmosphere in the space of an hour, the company calculated."
     
     }

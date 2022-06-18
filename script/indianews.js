@@ -5,6 +5,7 @@ var indiaArrr = JSON.parse(localStorage.getItem("indianews"));
 
 let first = document.getElementById("first_div_india");
 let last = document.getElementById("last_div_india");
+let last2 = document.getElementById("container_india_last");
 
 
 function displayData(data){
@@ -56,6 +57,40 @@ function displayData(data){
     box.append(image, heading, story, author);
     last.append(box)
     }
+
+    for(let i=0;i<data.length;i++){
+
+        
+
+        let elem = data[i];
+        
+        var box = document.createElement('div');
+        box.id = "last-container-national"
+    
+        let innerdiv = document.createElement('div');
+        innerdiv.id = "innerDiv-national"
+    
+        let authordiv = document.createElement('div');
+        authordiv.id = "authorDiv-national"
+    
+        var image = document.createElement("img");
+        image.src = elem.image;
+    
+        var heading = document.createElement('h3');
+        heading.innerText = elem.heading;
+    
+        var story = document.createElement('p');
+        story.innerText = elem.story;
+    
+        var author = document.createElement('h5');
+        author.innerText = elem.author;
+
+        authordiv.append(author);
+        innerdiv.append(heading, story)
+        box.append( authordiv, image , innerdiv);
+        last2.append(box);
+    }
+
 
     cont.append(first, last);
    

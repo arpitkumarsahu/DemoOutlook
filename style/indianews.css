@@ -1,15 +1,18 @@
+
+
+#national{
+    margin-top: 200px;
+    margin-left: 20px;
+}
+
 #container_india{
     height: auto;
     width: 95% auto;
-    /* border: 1px solid black; */
     display: flex;
-    margin: auto;
-
 }
 
 #first_div_india{
     width: 48%;
-    /* border: 1px solid red; */
     margin-right: 10px;
     border-right: 2px solid grey;
 }
@@ -17,7 +20,6 @@
 
 #last_div_india{
     width: 48%;
-    /* border: 1px solid green; */
     display: grid;
     
     grid-template-columns: repeat(2, 2fr);
@@ -44,6 +46,12 @@
     font-size: 20px;
     color: rgb(71, 70, 70);
 }
+#first-sub-div-india>h5{
+    color: #E0031B;
+    font-family: sans-serif;
+    font-size: 16px;
+    letter-spacing: -1px;
+}
 #first-sub-div-india>img{
     width: 95%;
 }
@@ -69,4 +77,59 @@
 #last-sub-div-india>p{
     color: rgb(71, 70, 70);
 }
+#last-sub-div-india>h5{
+    color: #E0031B;
+    font-family: sans-serif;
+    font-size: 16px;
+    letter-spacing: -1px;
+}
 
+
+#container_india_last{
+    width: 85%;
+    margin: auto;
+}
+#last-container-national{
+    border-bottom: 1px solid grey;
+
+    padding-top: 10px;
+    /* width: 100%; */
+    height: 160px;
+    display: flex;
+    overflow: hidden;
+}
+#authorDiv-national{
+    width: 300px;
+}
+#authorDiv-national>h5{
+    margin-top: 15px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: rgb(83, 82, 82);
+}
+
+#innerDiv-national{
+    width: 100%;
+    padding-left: 10px;
+   
+}
+#innerDiv-national>h3{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+#innerDiv-national>h3:hover{
+    cursor: pointer;
+    color:#E0031B;
+}
+#innerDiv-national>p{
+    width: 98%;
+    color: rgb(83, 82, 82);
+    padding-top: 10px;
+}
+#last-container-national>img{
+    width: 38%;
+    height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
