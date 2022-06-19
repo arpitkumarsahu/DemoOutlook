@@ -1,0 +1,160 @@
+body{
+    padding: 10px;
+}
+a{
+    text-decoration: 0;
+    color: black;
+}
+a:hover{
+    color: rgb(210,5,30);
+}
+h1,h2,h3{
+    font-family:'Times New Roman', Times, serif
+}
+h1:hover,h2:hover,h3:hover{
+    color: rgb(210,5,30);
+    
+}
+
+/* First Container Start */
+
+#container1{
+    display: flex;
+    /* border: 1px solid black; */
+    
+    justify-content: space-between;
+}
+#top{
+    width: 45%;
+    /* border: 1px solid gray; */
+}
+#top>img{
+    width: 555px;
+    height: 312px;
+}
+#top>h1{
+    width: 555px;
+
+    margin: 0;
+}
+/* #top>h1:hover{
+    color: red;
+   
+} */
+h1+p{
+    color: gray;
+    width: 555px;
+    overflow:hidden;
+    height: 65px;
+
+}
+p+p{
+    color: rgb(210,5,30);
+}
+.hr{
+height: 599px;
+display: flex;
+color: rgb(167, 167, 167);
+/* border: 1px solid black; */
+
+}
+#sideNews{
+display: flex;
+width: 50%;
+justify-content: center;
+justify-content: space-between;
+overflow: hidden;
+ /* border: 1px solid red;  */
+}
+#sideNews>div{
+width: 310px;
+
+}
+#sideNews>div>img{
+width: 100%;
+height: 180px;
+}
+#d,.date{
+color: rgb(210,5,30);
+}
+
+/* First Container End */
+
+
+#ads{
+width: 100%;
+height: 250px;
+border: 1px solid gray;
+
+margin: auto; 
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+/* Second Container Start */
+#container2{
+display: flex;
+
+
+}
+#news{
+width: 85%;
+}
+#news>div{
+/* text-align:left; */
+display: flex;
+justify-content: space-around;
+
+/* border: 1px solid red; */
+height: 160px;
+/* overflow: hidden; */
+
+}
+#news>div>img{
+width: 230px;
+height: 130px;
+margin-left: 10px;
+margin-right: 10px;
+}
+#news>div>div>p{
+/* color: red; */
+color: gray;
+width: 600px;
+height: 45px;
+/* overflow: hidden; */
+
+}
+#news>div>div>h3{
+/* color: red; */
+margin: 0;
+width: 500px;
+}
+/* #news>div>div{
+color: red;
+
+border: 1px solid blue;
+} */
+#news>div>p{
+color: gray;
+
+}
+/* news div end */
+
+/* ads2 */
+#ads2{
+width: 90%;
+text-align: center;
+background-color: rgb(247,247,247);
+border: 1px solid rgb(220, 220, 220);
+margin-left: 15px;
+padding: 10px;
+}
+#ads2>p{
+margin: 5px;
+margin-top: 0px;
+
+}
+#ads2>img{
+width: 100%;
+margin-top: 1%;
+}
