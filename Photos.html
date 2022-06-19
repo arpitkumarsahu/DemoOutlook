@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photos Landing Page</title>
+    <link rel="stylesheet" href="style/navbarcss.css">
+    <link rel="stylesheet" href="style/Footercss.css">
+    <style>
+        body{
+            padding: 10px;
+        }
+        a{
+            text-decoration: 0;
+            color: black;
+        }
+        a:hover{
+            color: rgb(210,5,30);
+        }
+        h1,h2,h3{
+            font-family:'Times New Roman', Times, serif
+        }
+        h1:hover,h2:hover,h3:hover{
+            color: rgb(210,5,30);
+            
+        }
+
+        /* First Container Start */
+
+        #container1{
+            display: flex;
+            /* border: 1px solid black; */
+            margin-top: 130px;
+            justify-content: space-between;
+        }
+        #top{
+            width: 45%;
+            /* border: 1px solid gray; */
+        }
+        #top>img{
+            width: 555px;
+            height: 312px;
+        }
+        #top>h1{
+            width: 555px;
+
+            margin: 0;
+        }
+        /* #top>h1:hover{
+            color: red;
+           
+        } */
+        h1+p{
+            color: gray;
+            width: 555px;
+            overflow:hidden;
+            height: 65px;
+
+        }
+        p+p{
+            color: rgb(210,5,30);
+        }
+       .hr{
+        height: 599px;
+        display: flex;
+        color: rgb(167, 167, 167);
+        /* border: 1px solid black; */
+        
+       }
+       #sideNews{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        justify-content: space-between;
+        overflow: hidden;
+         /* border: 1px solid red;  */
+       }
+       #sideNews>div{
+        width: 310px;
+        
+       }
+      #sideNews>div>img{
+        width: 100%;
+        height: 180px;
+      }
+      #d,.date{
+        color: rgb(210,5,30);
+      }
+
+       /* First Container End */
+
+
+ #ads{
+        width: 100%;
+        height: 250px;
+        border: 1px solid gray;
+       text-align: center;
+        margin: auto; 
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-top: 10px;
+       }
+       #ads>img{
+        height: 120px;
+       }
+
+       /* Second Container Start */
+      #container2{
+        display: flex;
+        
+       
+
+      }
+      #news{
+        width: 85%;
+      }
+      #news>div{
+        /* text-align:left; */
+        display: flex;
+        justify-content: space-around;
+       
+        /* border: 1px solid red; */
+        height: 160px;
+        overflow: hidden;
+
+      }
+      #news>div>img{
+        width: 230px;
+        height: 130px;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      #news>div>div>p{
+        /* color: red; */
+        color: gray;
+        width: 600px;
+        height: 45px;
+        overflow: hidden;
+       
+      }
+      #news>div>div>h3{
+        /* color: red; */
+        margin: 0;
+        width: 500px;
+      }
+      /* #news>div>div{
+        color: red;
+        
+        border: 1px solid blue;
+      } */
+      #news>div>p{
+        color: gray;
+       
+      }
+      /* news div end */
+
+      /* ads2 */
+      #ads2{
+        width: 90%;
+        text-align: center;
+        background-color: rgb(247,247,247);
+        border: 1px solid rgb(220, 220, 220);
+        margin-left: 15px;
+        padding: 10px;
+      }
+      #ads2>p{
+        margin: 5px;
+        margin-top: 0px;
+       
+      }
+      #ads2>img{
+        width: 100%;
+        margin-top: 1%;
+      }
+    </style>
+</head>
+<body>
+
+<!--   
+      <div id="container">
+          <img src="https://www.outlookindia.com/images/home_new_v4/logo_outlook.svg" alt="">
+          <p><a href="signup_page.html">LOGIN <span>|</span> </a><a href="subscription.html">SUBSCRIBE</a></p>
+         </div>
+         <div id="navbar">
+          <ul >
+              <li><a href="subscription.html">Home</a></li>
+              <li><a href="#">Outlook</a>
+                  <div class="sub-menus">
+                      <p><a href="#">Magazine</a></p>
+                      <p><a href="#">India News</a></p>
+                      <p><a href="#">Internation News</a></p>
+                      <p><a href="#">Culture</a></p>
+                      <p><a href="#">Study Aborad</a></p>
+                  </div>
+                  <ul>
+                      <li><a href="#">Magazine</a></li>
+                      <li><a href="#">India News</a></li>
+                      <li><a href="#">Internation News</a></li>
+                      <li><a href="#">Culture</a></li>
+                      <li><a href="#">Study Aborad</a></li>
+                  </ul>
+              </li>
+              <li><a href="#">Business</a></li>
+              <li><a href="#">Money</a></li>
+              <li><a href="#">Crypto Corner</a></li>
+              <li><a href="#">Travel</a></li>
+              <li><a href="#">Sports</a></li>
+              <li><a href="#">Videos</a></li>
+              <li><a href="#">Entertainment</a></li>
+              <li><a href="#">Photos</a></li>
+              <li><a href="#">Magazine</a></li>
+              <li><a href="#">Hindi</a></li>
+              <li><a href="#">Poshan</a></li>
+              <li><a href="#">Others</a></li>
+          </ul>
+         </div>
+         <hr>
+      -->
+
+
+
+
+
+
+
+
+      
+      <header>
+          <div id="container">
+              <img src="https://www.outlookindia.com/images/home_new_v4/logo_outlook.svg" alt="">
+              <p><a href="signup_page.html">LOGIN <span>|</span> </a><a href="subscription.html">SUBSCRIBE</a></p>
+             </div>
+             <div id="navbar">
+              <ul >
+                  <li><a href="subscription.html">Home</a></li>
+                  <li><a href="#">Outlook</a>
+                      <div class="sub-menus">
+                          <p><a href="#">Magazine</a></p>
+                          <p><a href="#">India News</a></p>
+                          <p><a href="#">Internation News</a></p>
+                          <p><a href="#">Culture</a></p>
+                          <p><a href="#">Study Aborad</a></p>
+                      </div>
+                      <!-- <ul>
+                          <li><a href="#">Magazine</a></li>
+                          <li><a href="#">India News</a></li>
+                          <li><a href="#">Internation News</a></li>
+                          <li><a href="#">Culture</a></li>
+                          <li><a href="#">Study Aborad</a></li>
+                      </ul> -->
+                  </li>
+                  <li><a href="#">Business</a></li>
+                  <li><a href="#">Money</a></li>
+                  <li><a href="#">Crypto Corner</a></li>
+                  <li><a href="#">Travel</a></li>
+                  <li><a href="#">Sports</a></li>
+                  <li><a href="#">Videos</a></li>
+                  <li><a href="#">Entertainment</a></li>
+                  <li><a href="#">Photos</a></li>
+                  <li><a href="#">Magazine</a></li>
+                  <li><a href="#">Hindi</a></li>
+                  <li><a href="#">Poshan</a></li>
+                  <li><a href="#">Others</a></li>
+              </ul>
+             </div>
+             <hr>
+         </header>
+
+    <h1> <a href="Photos.html">Photos</a></h1>
+    <div id="container1">
+        <div id="top">
+
+        </div >
+        <div class="hr">
+            <hr>
+        </div>
+        <div id="sideNews">
+            <div>
+                <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_5/IMAGE_1655292192.webp" alt="">
+                <h3>
+                   <a href="https://www.outlookindia.com/sports/tunisia-beat-japan-to-win-kirin-cup-2022-in-pics-photos-202511"> Tunisia Beat Japan To Win Kirin Cup 2022 - In Pics</a>
+                </h1> 
+                 <p>
+                    Tunisia stepped up their FIFA World Cup 2022 preparations with a 3-0 win over Japan and win the four-team Kirin Cup 2022.
+                    Mohamed Ali Ben...
+                </p>
+               <div class="date">
+
+               </div>
+                <hr>
+                <h3>
+                    SL Vs AUS,1st ODI: Glenn Maxwell Pyrotechnics In Australia's Win Over Sri Lanka - In Pics
+                </h3>
+                <p>
+                    Glenn Maxwell hit an unbeaten 80 to help Aurstalia successfully chase down a revised target of 282 runs from 44 overs for a two wicket win with nine balls to...
+                </p>
+        
+            </div>
+            <div>
+                <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_5/IMAGE_1655285970.webp" alt="">
+                <h3>
+                   <a href="https://www.outlookindia.com/sports/uefa-nations-league-netherlands-survive-wales-fightback-for-dramatic-win-in-pics-photos-202476">UEFA Nations League: Netherlands Survive Wales Fightback For Dramatic Win - In Pics</a> 
+                </h1>
+                <p>
+                    After leading 2-1, the Netherland conceded a 92nd-minute penalty with Gareth Bale converting from the spot,then Memphis Depay won it straight from the...
+                </p>
+              
+                <div id="d">
+                 
+                </div>
+            <hr>
+            <h3>
+                UEFA Nations League: BElgium Cement Second Spot With Win Over Poland - In Pics
+            </h3>
+            <p>
+                Michy Batshuayi's header in the first half proved the difference between Belgium and Poland in thier UEFA Nations League, Group A4 match. Belgium are second in...
+            </p>
+            </div>
+        </div>
+    </div>
+    <div id="ads">
+        <img src="https://secure-ds.serving-sys.com/resources/PROD/asset/1073745701/IMAGE/20220610/outlook_GBD-200_728x90_71496721541124557.jpg" alt="">
+    </div>
+    <div id="container2">
+        <div id="news">
+
+        </div>
+        <div>
+            <div id="ads2">
+            <p>ADVERTISEMENT</p>
+                        <img src="https://secure-ds.serving-sys.com/resources/PROD/asset/1073745701/IMAGE/20220610/outlook_GBD-200_300x250_71496720468432328.jpg" alt="">
+            </div>
+         
+        </div>
+    </div>
+
+
+
+
+
+    <footer>
+      <div id="container3">
+          <div>
+              <h3>Main Stories</h3>
+              <hr>
+              <ul>
+                  <li><a href="#">Magazine</a></li>
+                  <li><a href="#">National</a></li>
+                  <li><a href="#">Internationa</a></li>
+                  <li><a href="#">Business</a></li>
+                  <li><a href="#">Opinions</a></li>
+                  <li><a href="#">Book Reviews</a></li>
+                  <li><a href="#">The News</a></li>
+                  <li><a href="#">Sports</a></li>
+                  <li><a href="#">Art & Entertainment</a></li>
+              </ul>
+          </div>
+          <div>
+              <h3>Traveller</h3>
+              <hr>
+              <ul>
+                  <li><a href="#">TRAVELOGUES</a></li>
+                  <li><a href="#">WEEKEND BREAKS</a></li>
+                  <li><a href="#">HOLIDAYS WITH OT</a></li>
+                  <li><a href="#">PHOTO FEATURES</a></li>
+                  <li><a href="#">HOTELS</a></li>
+                  <li><a href="#">GUIDEBOOKS</a></li>
+              </ul>
+          </div>
+          <div>
+              <h3>Money</h3>
+              <hr>
+              <ul>
+                  <li><a href="#">Mutual Funds</a></li>
+                  <li><a href="#">Insurance</a></li>
+                  <li><a href="#">Equity</a></li>
+                  <li><a href="#">Fixed Assets</a></li>
+                  <li><a href="#">Banking</a></li>
+                  <li><a href="#">ASK</a></li>
+              </ul>
+          </div>
+          <div>
+              <h3>Business</h3>
+              <hr>
+              <ul>
+                  <li><a href="#">THE BIG STORY</a></li>
+                  <li><a href="#">SPECIALS</a></li>
+                  <li><a href="#">PERSPECTIVE</a></li>
+                  <li><a href="#">PIXSTORY</a></li>
+                  <li><a href="#">ENTERPRISE</a></li>
+                  <li><a href="#">STRATEGY</a></li>
+                  <li><a href="#">MARKETS</a></li>
+                  <li><a href="#">C'EST LA VIE</a></li>
+              </ul>
+          </div>
+          <div>
+              <h3>Social Media</h3>
+              <hr>
+              <ul>
+                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">Twitter</a></li>
+                  <li><a href="#">Instagram</a></li>
+                  <li><a href="#">Youtube</a></li>
+              </ul>
+          </div>
+      
+      </div>
+      <div id="copyright">
+          <p>About Us Contact Us Subscribe Copyright & DisclaimerOsm AwardsCompliancePoshan</p>
+      </div>
+     </footer>
+</body>
+</html>
+<script src="script/Photos.js">
+
+</script>
