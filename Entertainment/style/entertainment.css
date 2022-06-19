@@ -81,7 +81,14 @@
 #add{
     width: 100%;
     height: 300px;
-    border: 1px solid gray;
+    border: 0.1px solid gray;
     border-radius: 5px;
-    background-color: #8e8d8d48;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#add>img{
+   height: 100px;
+   
 }
