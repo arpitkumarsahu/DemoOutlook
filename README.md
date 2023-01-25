@@ -18,4 +18,26 @@ Its a news website that shows the latest  news in the catagorised part with logi
 Live link : - https://loquacious-kheer-13bb24.netlify.app/index.html
 
 
+<h2>Here are some screenshots of the clone website</h2>
+
+
+
+<h2> Outlook Page :- </h2>
+
+
+<img  src="./screen_shots/Outlook.PNG"/>
+
+
+
+
+<h2> Photos Page :- </h2>
+
+
+<img  src="./screen_shots/Photos.PNG"/>
+
+
+<h2> Login Page :- </h2>
+
+
+<img  src="./screen_shots/Login.PNG"/>
 
