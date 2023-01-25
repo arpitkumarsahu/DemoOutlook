@@ -25,7 +25,7 @@ Live link : - https://loquacious-kheer-13bb24.netlify.app/index.html
 <h2> Outlook Page :- </h2>
 
 
-<img  src="./screen_shots/Outlook.PNG"/>
+<img  src="./screen_shots/outlook.PNG"/>
 
 
 
@@ -33,7 +33,7 @@ Live link : - https://loquacious-kheer-13bb24.netlify.app/index.html
 <h2> Photos Page :- </h2>
 
 
-<img  src="./screen_shots/Photos.PNG"/>
+<img  src="./screen_shots/photos.PNG"/>
 
 
 <h2> Login Page :- </h2>
